@@ -1,5 +1,5 @@
 {% set name = "efficient-apriori" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/efficient_apriori-{{ version }}.tar.gz
-  sha256: 29e856c2591b30ea3d101b63922c0299fabd5f9e6919d2593fffc45b6c6e583b
+  sha256: 5ad8ce4b4f8aee53cc0ef99a804145071bd8bdd652fdfb78cdf2e43831baad6e
 
 build:
   noarch: python
